@@ -1,0 +1,1 @@
+Kenya Mineral AI v9.0 Production Kit - Deploy in 1 day. See artifact for full guide. Isulu 4157 blocks 1.27Moz exact Mui 16037 400MT geology 1116 mag low -30 IP 25-40 soil 800-2000 cadastre 32 SAMPLE Full 900+ OTMCP.

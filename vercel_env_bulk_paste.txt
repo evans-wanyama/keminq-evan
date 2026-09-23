@@ -1,0 +1,127 @@
+# KeMinQ Vercel Env Paste — Ready for Vercel Dashboard Bulk Paste + CLI — Tonight from Nairobi
+# KeMinQ = Kenya Mineral Intelligence Query — The Quotient that matters (GxW 1317) — EVAN = Exploration Vetting Analytics Nexus named after founder Evan — Query the data. Calculate the quotient.
+# Gold DB exact Isulu 4157 blocks 5.61MT @7.04=1.27Moz exact Isulu1519 DH 1383m abs visible gold 150m ISR-BH-237 6m @219.5 GxW1317 BSG-BH-045 6.4m @47.3 Indicated >100% Rosterman 259k @12.3 SML 2.5km2 Ramula 470k ML/2024/0200 Shanta 15.38km2 Siaya Vihiga ML Active PL Active Liranda shear 23m 12km dip70W az270W dip-65 Nyanzian basalt 2700Ma + Mui 16037 400MT Blocks A-D Fenxi ML Granted 79 samples 16-27 MJ/kg 100MT @25 MJ/kg Block C international 500km2 Karoo Ecca sandstone mudstone + Kwale Ti 56km2 26% global Base Titanium ML + Mrima REE-Nb 70Ma carbonatite + Magadi trona 100MT + Tsavo ruby tsavorite 2,000km Mozambique Belt + geology 1116 Liranda shear + geophysics mag low -30 blue demag low vs 80-120 red high + IP 25-40 red sulfide + geochem soil Au 800-2000 As100 Sb20 + cadastre Full 900+ OTMCP vs 32 SAMPLE Free MCP01 Nairobi portal.miningcadastre.go.ke login required — Vetting engine Kenya bbox -5to5 33to42 host_rock Nyanzian 2700Ma QAQC Au 0-219.5 TMI -50 to120 IP 0-40 abs_elev=collar-vert_depth Isulu1519 dip-65 az270W SHA256 ODPC Mining Act 2016 CP Measured<40 Indicated<100 — Mapbox light #F8F9FA layers OFF clean muted Gold #C2A878 graduated yellow-orange-red-dark red 219.5 boreholes dip -65 arrows shear 530-553 DEM 1519 cross-section X vs Elevation terrain on top blocks below real elev fix vulcan_collar_real_elev_dip.csv datamine_collar_real.txt collar_real_dip_az_elevation_Leapfrog.csv — Tech Supabase PostGIS EPSG:4326 pgvector Vercel AI SDK RAG OpenAI embeddings Mapbox light Three.js Deck.gl Stripe MVT tiles /v1/map/tiles/{z}/{x}/{y}.mvt API /v1/resource/Isulu/blocks?au_cutoff=50&g_x_w_gt=1317 QGIS 5.9MB GPKG SHP GeoTIFF DEM 1519 QGS KML KMZ Vulcan Datamine Leapfrog Cesium 3D Tiles glTF — Business Model Free $0 EVAN Lite truncated 60 Samsam 32 SAMPLE, Pro $99 EVAN Pro Query + Quotient full 3D 4157+16037 geology 1116 geophysics mag low -30 IP 25-40 geochem 800-2000 exports QGIS 5.9MB Vulcan Datamine Leapfrog KML MVT drill target GxW1317 valuation upload realtime high-res, Enterprise $499 EVAN CP Query + Quotient + JORC Table1 NI43-101 API CP sign-off Measured<40 Indicated<100 white label — Dual Q Q as Query Ask EVAN + Q as Quotient GxW 1317 100MT @25 Kwale Ti 26% global — Query the data. Calculate the quotient.
+
+# INSTRUCTIONS FOR VERCEL DASHBOARD BULK PASTE:
+# 1. Open https://vercel.com/your-team/keminq-evan/settings/environment-variables
+# 2. Click "Add" -> Paste all lines below at once in the bulk paste box (Vercel supports bulk paste)
+# 3. Replace placeholder values (your-project, eyJ..., sk-xxx, pk.xxx, re_xxx, pk_test_xxx, sk_test_xxx, whsec_xxx) with your real keys
+# 4. Set Environment = Production, Preview, Development (all 3)
+# 5. Save -> Redeploy vercel --prod
+
+# --- Branding - Dual Q ---
+NEXT_PUBLIC_APP_NAME=KeMinQ
+NEXT_PUBLIC_APP_FULL_NAME=Kenya Mineral Intelligence Query
+NEXT_PUBLIC_AI_NAME=EVAN
+NEXT_PUBLIC_AI_FULL=Exploration Vetting Analytics Nexus
+NEXT_PUBLIC_AI_NAMED_AFTER=Founder Evan — Your AI Resource Geologist
+NEXT_PUBLIC_BRAND=KeMinQ = Kenya Mineral Intelligence Query — The Quotient that matters (GxW 1317)
+NEXT_PUBLIC_TAGLINE=Query the data. Calculate the quotient.
+NEXT_PUBLIC_DUAL_Q=Q as Query (user-facing Ask EVAN) + Quotient (technical GxW 1317 Grade x Width ISR-BH-237 6m @219.5 highest ROI + 100MT @25 MJ/kg Mui + Kwale Ti 56km2 26% global)
+NEXT_PUBLIC_LOGO_TEXT=KeMinQ
+NEXT_PUBLIC_LOGO_STYLES=Ke white Min gold Q white + EVAN badge gold outline + Two-shields logo placeholder Query + Quotient overlapping
+NEXT_PUBLIC_HERO_HEADLINE=KeMinQ = Kenya Mineral Intelligence Query — The Quotient that matters
+NEXT_PUBLIC_HERO_SUB=EVAN = Exploration, Vetting, Analytics, Nexus — Named after founder Evan
+NEXT_PUBLIC_HERO_TAGLINE=Query the data. Calculate the quotient.
+
+# --- Exact Data - Vetted ---
+NEXT_PUBLIC_ISULU_EXACT=4157 blocks 5.61MT @7.04=1.27Moz exact ISR-BH-237 6m @219.5 GxW1317 Isulu1519 DH 1383m abs visible gold 150m BSG-BH-045 6.4m @47.3 Indicated >100% Rosterman 259k @12.3 Ramula 470k ML/2024/0200 15.38km2 Siaya Vihiga ML Active PL Active
+NEXT_PUBLIC_MUI_EXACT=16037 blocks 400MT Blocks A-D Fenxi ML Granted 79 samples 16-27 MJ/kg 100MT @25 MJ/kg Block C international 500km2 Karoo Ecca sandstone mudstone
+NEXT_PUBLIC_GEOLOGY_EXACT=1116 pts Liranda Corridor 12km N-S shear 23m wide dip70W az270W dip-65 Nyanzian 2700Ma basalt BIF
+NEXT_PUBLIC_GEOPHYSICS_EXACT=mag low -30 blue demag low vs 80-120 red high + IP high 25-40 red sulfide + soil Au 800-2000 ppb As100 Sb20 pathfinders
+NEXT_PUBLIC_CADASTRE_EXACT=Full 900+ OTMCP map.miningcadastre.go.ke/map vs 32 SAMPLE Free, ML Active PL Active, MCP01 Nairobi portal.miningcadastre.go.ke login required
+NEXT_PUBLIC_CRITICAL_EXACT=Kwale Titanium 56km2 26% global Base Titanium ML + Mrima Hill REE-Nb 70Ma carbonatite monazite bastnasite niobium + Magadi trona 100MT lake sediments sodium sesquicarbonate + Tsavo ruby tsavorite 2,000km Mozambique Belt metamorphic gneiss
+NEXT_PUBLIC_VETTING_EXACT=bbox -5to5 33to42 Kenya PASS host_rock Nyanzian basalt 2700Ma PASS QAQC Au 0-219.5 g/t PASS abs_elev=collar-vert_depth Isulu1519 fixed inversion terrain on top blocks below PASS dip -65 az270W PASS SHA256 PASS ODPC 2019 Art26 Mining Act 2016 OTMCP PASS CP Measured<40 Indicated<100 Inferred
+
+# --- Supabase / PostGIS - REPLACE WITH YOUR REAL PROJECT ---
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIs...
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIs...
+
+# --- AI / RAG - EVAN ---
+OPENAI_API_KEY=sk-xxx
+NEXT_PUBLIC_OPENAI_MODEL=gpt-4o-mini
+NEXT_PUBLIC_RAG_SOURCES=Geology of Kenya Shackleton 1986, Precambrian Research 2700Ma, Shanta LSE RNS 221,000m drilling 1.27Moz @7.04, BGS NGDC ngdckenya.bgs.ac.uk, USGS, Ministry Energy Mui Report 79 samples, Base Titanium Kwale 26% global, Mrima REE-Nb 70Ma carbonatite, Magadi trona 100MT, Mozambique Belt 2000km
+
+# --- Mapbox - Light theme clean muted Gold #F8F9FA layers OFF ---
+MAPBOX_TOKEN=pk.xxx
+NEXT_PUBLIC_MAPBOX_TOKEN=pk.xxx
+NEXT_PUBLIC_MAPBOX_STYLE=mapbox://styles/mapbox/light-v11
+NEXT_PUBLIC_MAPBOX_LIGHT_COLOR=#F8F9FA
+NEXT_PUBLIC_MAPBOX_LAYERS_OFF=true
+NEXT_PUBLIC_MAPBOX_GOLD_MUTED=#C2A878
+NEXT_PUBLIC_MAPBOX_GRADUATED=yellow-orange-red-dark red 219.5
+NEXT_PUBLIC_MAPBOX_3D_TERRAIN_EXAGGERATION=1.5
+NEXT_PUBLIC_MAPBOX_BOREHOLE_DIP=-65
+NEXT_PUBLIC_MAPBOX_SHEAR_AZIMUTH=530-553
+NEXT_PUBLIC_MAPBOX_DEM=1519
+NEXT_PUBLIC_MAPBOX_CROSS_SECTION=X vs Elevation terrain on top blocks below
+
+# --- WebGPU + Real-time AI ---
+NEXT_PUBLIC_WEBGPU_ENABLED=true
+NEXT_PUBLIC_WEBGPU_KRIGING_NUGGET=0.15
+NEXT_PUBLIC_WEBGPU_KRIGING_SILL=1.2
+NEXT_PUBLIC_WEBGPU_KRIGING_RANGE_STRIKE=45
+NEXT_PUBLIC_WEBGPU_KRIGING_RANGE_ACROSS=25
+NEXT_PUBLIC_WEBGPU_KRIGING_RANGE_VERTICAL=15
+NEXT_PUBLIC_WEBGPU_KRIGING_MODEL=Spherical
+NEXT_PUBLIC_WEBGPU_HIGH_NUGGET_REASON=visible gold 35/102
+NEXT_PUBLIC_GXW_QUOTIENT=1317
+NEXT_PUBLIC_GXW_HOLE=ISR-BH-237 6m @219.5=1317 highest ROI
+NEXT_PUBLIC_REAL_ELEV_FIX=abs_elev=collar-vert_depth Isulu1519 fixed inversion terrain on top blocks below PASS vulcan_collar_real_elev_dip.csv datamine_collar_real.txt collar_real_dip_az_elevation_Leapfrog.csv
+
+# --- MVT + Cesium 3D Tiles + API ---
+NEXT_PUBLIC_MVT_TILES_URL=/v1/map/tiles/{z}/{x}/{y}.mvt
+NEXT_PUBLIC_CESIUM_TILES_URL=/cesium_3d_tiles_isulu_4157_mui_16037.json
+NEXT_PUBLIC_API_BLOCKS_ISULU=/v1/resource/Isulu/blocks?au_cutoff=50&g_x_w_gt=1317
+NEXT_PUBLIC_API_BLOCKS_MUI=/v1/resource/Mui/blocks?block=C&cv_gt=25
+NEXT_PUBLIC_API_COMPUTE_KRIGING=/api/evan/compute-kriging
+NEXT_PUBLIC_WS_EVAN_AGENTS=/ws/evan-agents
+NEXT_PUBLIC_API_EVAN_AGENTS=/api/evan/agents
+
+# --- Stripe - EVAN Pro Query + Quotient ---
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_xxx
+STRIPE_SECRET_KEY=sk_test_xxx
+STRIPE_WEBHOOK_SECRET=whsec_xxx
+NEXT_PUBLIC_APP_URL=https://keminq.ai
+NEXT_PUBLIC_STRIPE_PRO_PRICE_ID=price_pro_99_query_quotient_gxw1317
+NEXT_PUBLIC_STRIPE_ENTERPRISE_PRICE_ID=price_enterprise_499_query_quotient_cp
+NEXT_PUBLIC_STRIPE_CP_REPORT_PRICE_ID=price_cp_999_oneoff
+STRIPE_PRO_PRODUCT_NAME=EVAN Pro - Query the data. Calculate the quotient.
+STRIPE_PRO_PRODUCT_DESCRIPTION=KeMinQ = Kenya Mineral Intelligence Query — The Quotient that matters (GxW 1317). Powered by EVAN = Exploration Vetting Analytics Nexus. Query Benefits: Unlimited Ask EVAN vetted [1][2][3] 98% Vetted SHA256 CP badge. Quotient Benefits: GxW 1317 ISR-BH-237 6m @219.5 highest ROI, Full 3D Isulu 4157 + Mui 16037 + geology 1116 + geophysics mag low -30 + IP 25-40 + geochem 800-2000 + cadastre Full 900+ OTMCP + exports QGIS Vulcan Datamine Leapfrog KML MVT.
+
+# --- Emails - Resend - EVAN Sequence Day0 GxW1317 Day3 Mui 400MT Day7 Kwale Ti 26% + Mrima REE-Nb 70Ma + Magadi 100MT Enterprise $499 upsell ---
+RESEND_API_KEY=re_xxx
+EMAIL_FROM=EVAN by KeMinQ <evan@keminq.ai>
+EMAIL_REPLY_TO=evan@keminq.ai
+NEXT_PUBLIC_EMAIL_SEQUENCE=Day0 GxW1317 Welcome, Day3 Mui 400MT Block C 79 samples 16-27 MJ/kg, Day7 Kwale Ti 26% + Mrima REE-Nb 70Ma + Magadi trona 100MT Enterprise $499 upsell
+NEXT_PUBLIC_EMAIL_DAY0_TEMPLATE=welcome-evan-pro.html
+NEXT_PUBLIC_EMAIL_DAY3_TEMPLATE=day3-mui-400mt.html
+NEXT_PUBLIC_EMAIL_DAY7_TEMPLATE=day7-critical-minerals.html
+
+# --- Exports - Real Elev Fix vulcan_collar_real_elev_dip.csv datamine_collar_real.txt collar_real_dip_az_elevation_Leapfrog.csv ---
+NEXT_PUBLIC_EXPORTS=QGIS 5.9MB GPKG SHP GeoTIFF DEM 1519 QGS, Vulcan vulcan_collar_real_elev_dip.csv, Datamine datamine_collar_real.txt, Leapfrog collar_real_dip_az_elevation_Leapfrog.csv, KML KMZ, MVT /v1/map/tiles/{z}/{x}/{y}.mvt, API /v1/resource/Isulu/blocks?au_cutoff=50&g_x_w_gt=1317
+NEXT_PUBLIC_VULCAN_FILE=vulcan_collar_real_elev_dip.csv
+NEXT_PUBLIC_DATAMINE_FILE=datamine_collar_real.txt
+NEXT_PUBLIC_LEAPFROG_FILE=collar_real_dip_az_elevation_Leapfrog.csv
+NEXT_PUBLIC_QGIS_FILE=qgis_blocks_3d_4157_16037_geology_1116.gpkg
+
+# --- Business Model ---
+NEXT_PUBLIC_PRICING_FREE=Free Explorer $0 = EVAN Lite Query only truncated 60 Samsam 32 SAMPLE 1.27Moz summary low-res
+NEXT_PUBLIC_PRICING_PRO=Pro $99/mo = EVAN Pro Query + Quotient full 3D 4157+16037 geology 1116 geophysics mag low -30 IP 25-40 geochem 800-2000 exports QGIS Vulcan Datamine Leapfrog KML MVT drill target GxW1317 valuation upload realtime high-res
+NEXT_PUBLIC_PRICING_ENTERPRISE=Enterprise $499/mo = EVAN CP Query + Quotient + JORC Table1 NI43-101 API CP sign-off Measured<40 Indicated<100 Inferred white label valuation pitch deck
+NEXT_PUBLIC_PRICING_CP=CP Report $999 one-off JORC Table1 NI43-101 SAMREC compliant Isulu 1.27Moz @7.04 exact GxW1317 + Mui 400MT
+
+# --- Investors ---
+NEXT_PUBLIC_INVESTOR_SHANTA=Shanta Gold ML/2024/0200 15.38km2 Siaya Vihiga Isulu 1.27Moz @7.04 Rosterman 259k @12.3 Ramula 470k
+NEXT_PUBLIC_INVESTOR_BASE=Base Titanium Kwale 56km2 26% global titanium
+NEXT_PUBLIC_INVESTOR_FENXI=Fenxi Mining Mui Blocks A-B ML Granted Block C international 100MT @25 MJ/kg
+NEXT_PUBLIC_INVESTOR_PITCH=Which quotient has highest ROI for your portfolio? EVAN Analytics calculates — GxW 1317 highest ROI MRE 1.27Moz @7.04 vs 100MT @25 MJ/kg =2.5e15 MJ $2B+ @50/ton vs Kwale Ti 56km2 26% global $500M+ export Mrima REE-Nb critical EVs wind Magadi 100MT industrial Tsavo ruby high value — For Shanta Gold ML/2024/0200 15.38km2 Siaya Vihiga vs Fenxi Mining Mui Blocks A-B ML Granted Block C international 100MT @25 MJ/kg vs Base Titanium Kwale 56km2 26% global
+
+# --- EVAN Agents ---
+NEXT_PUBLIC_EVAN_EXPLORATION=Exploration Agent watching CSV/SHP/PDF Bronze SHA256 — 60 Samsam + 102 maps + Isulu 4157 exact ISR-BH-237 6m @219.5 GxW1317 BSG-BH-045 6.4m @47.3 Mui 16037 400MT Blocks A-D Fenxi ML Granted geology 1116 Liranda shear 23m 12km dip70W mag low -30 blue demag + IP 25-40 red soil 800-2000 As100 Sb20 cadastre 32 SAMPLE Free vs Full 900+ OTMCP
+NEXT_PUBLIC_EVAN_VETTING=Kenya bbox -5to5 33to42 PASS host_rock Nyanzian basalt 2700Ma PASS QAQC Au 0-219.5 PASS abs_elev=collar-vert_depth Isulu1519 fixed inversion terrain on top blocks below PASS dip-65 az270W PASS SHA256 PASS ODPC 2019 Art26 Mining Act 2016 OTMCP PASS CP Measured<40 Indicated<100
+NEXT_PUBLIC_EVAN_ANALYTICS=GxW Quotient Grade x Width ISR-BH-237 6m @219.5=1317 highest ROI — 5.61MT @7.04=1.27Moz exact — Metal Quotient Economic Quotient Quality Quotient MRE Valuation Drill Target — Auto-colors blocks by GxW — yellow-orange-red-dark red 219.5 — auto-detects high ROI — Volumetric shells re-render as kriging updates
+NEXT_PUBLIC_EVAN_NEXUS=Merging Isulu+Mui → WebSocket push live — Bronze SHA256 Silver validation Gold merge Isulu+Mui → JORC Table1 NI43-101 MRE Potential Map Tenement Map Exports Vulcan Datamine Leapfrog QGIS KML MVT Cesium 3D Tiles glTF — visuals update without refresh live — Mapbox light #F8F9FA layers OFF clean muted Gold #C2A878 graduated yellow-orange-red-dark red 219.5 boreholes dip -65 arrows shear 530-553 DEM 1519 cross-section X vs Elevation terrain on top blocks below real elev fix vulcan_collar_real_elev_dip.csv
+
+# --- End — KeMinQ + EVAN — Query the data. Calculate the quotient. — GxW 1317 + Mui 400MT + Kwale Ti 26% + Mrima REE-Nb 70Ma + Magadi 100MT + Tsavo ruby 2,000km Mozambique Belt — Two-shields logo integration ready — evan@keminq.ai — vercel --prod tonight from Nairobi ---

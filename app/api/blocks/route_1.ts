@@ -1,0 +1,4 @@
+import { NextRequest, NextResponse } from 'next/server'
+import { supabaseAdmin } from '@/lib/supabase'
+import { checkPlanAccess } from '@/lib/vetting'
+export async function GET(req:NextRequest){const {searchParams}=new URL(req.url); const plan=searchParams.get('plan')||'free'; const au_cutoff=parseFloat(searchParams.get('au_cutoff')||'0'); const g_x_w_gt=parseFloat(searchParams.get('g_x_w_gt')||'0'); if(!checkPlanAccess(plan,'blocks_3d')){return NextResponse.json({error:'3D Block Model 4157 blocks 1.27Moz exact requires Pro $99/mo'},{status:403})} const {data}=await supabaseAdmin.from('isulu_blocks').select('*').gte('au_gpt',au_cutoff).gte('g_x_w',g_x_w_gt).order('g_x_w',{ascending:false}).limit(500); return NextResponse.json({type:'FeatureCollection', features:data?.map((b:any)=>({type:'Feature', geometry:{type:'Point', coordinates:[b.x||34.5,b.y||0.8]}, properties:b}))})}
